@@ -2,3 +2,18 @@ body {
     margin: DeepSkyBlue;
     text-align: center;
 }
+h1.MainTitle {
+    font-size: xx-large;
+}
+ul.ArrowList li:before {
+    text-align: left;
+    content: "\2192";
+}
+ul.BoldDashList li:before {
+    font-size: larger;
+    font-weight: bold;
+    content: "- ";
+}
+ul.BoldDashList li {
+    text-align: left;
+}
