@@ -1,19 +1,59 @@
-body {
-    margin: DeepSkyBlue;
-    text-align: center;
+body{
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh;
 }
 h1.MainTitle {
-    font-size: xx-large;
+    font-size: 40;
 }
 ul.ArrowList li:before {
     text-align: left;
     content: "\2192";
 }
 ul.BoldDashList li:before {
-    font-size: larger;
+    font-size: 24;
     font-weight: bold;
     content: "- ";
 }
 ul.BoldDashList li {
     text-align: left;
+    font-family:'Trebuchet MS';
 }
+header{
+    position: fixed; 
+    width: 100%; 
+    min-height: 50px;
+}
+footer{
+    text-align: left;
+    font-size: 18;
+    background:lightgray;
+    min-height: 150px;
+    width:100%;
+    bottom: 0;
+    margin-top: auto;
+    font-family: Verdana; 
+    font-weight: bold;
+}
+a.FooterLink:link{
+    color: grey;
+    text-decoration: none;
+}
+a.FooterLink:visited{
+    color:grey;
+    text-decoration: none;
+}
+a.FooterLink:hover{
+    color: rgb(110, 110, 110);;
+    text-decoration: none;
+}
+a.FooterLink:active{
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
