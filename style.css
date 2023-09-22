@@ -57,3 +57,12 @@ a.FooterLink:active{
     display: table;
     clear: both;
 }
+a.logo{
+    width: 4%;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    a.logo{
+        width: 10%;
+    }
+  }
